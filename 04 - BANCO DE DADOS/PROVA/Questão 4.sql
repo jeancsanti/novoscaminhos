@@ -22,6 +22,11 @@ id    name                      login           password
 4	  Otis C. Hitt	            Conalothe	    zooFohH7w
 5	  Roger N. Brownfield	    Worseente	    fah7ohN	 
 
+
+--SELECT 
+SELECT id, password,md5(password) FROM ACCOUNT;
+
+
 -- EXEMPLO DE SAÍDA ESPERADO
 id	    password	    MD5
 1	    noh1Oozei	    b67ed42ced0e0a19ce7ed904bb94b607

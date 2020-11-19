@@ -24,6 +24,11 @@ id	name                street	        city	        state
 5	Isabela Moraes	    Av Juiz Grande	Curitiba	    PR	
 6	Francisco Accerr	Av Paulista	São Paulo	        SP 	    	 
 
+
+-- SELECT
+SELECT DISTINCT city FROM providers ORDER  BY city asc;
+
+
 -- EXEMPLO DE SAÍDA ESPERADO
 city	
 Belo Horizonte	
@@ -32,4 +37,5 @@ Porto Alegre
 Rio de Janeiro	
 Salvador	
 São Paulo
+
 

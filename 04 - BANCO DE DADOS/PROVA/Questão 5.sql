@@ -35,6 +35,12 @@ id_customers	cnpj        	contact
 4	            85883842000191	99767-0562	
 5	            47773848000117	99100-8965 
 
+
+--SELECT 
+SELECT cs.name FROM CUSTOMERS cs, LEGAL_PERSON lp WHERE cs.id=lp.id_customers;
+
+
+
 -- EXEMPLO DE SAÍDA ESPERADO
 name	
 Nicolas Diogo Cardoso	

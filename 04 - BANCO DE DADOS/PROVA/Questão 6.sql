@@ -22,6 +22,10 @@ id	    name                    amount      price
 5   	Chair               	3000    	210.64
 6   	Single bed          	750     	460 
 
+
+--SELECT 
+SELECT MAX(price), MIN(price) FROM PRODUCTS;
+
 -- EXEMPLO DE SAÍDA ESPERADO
 price	    price
 800         25.50

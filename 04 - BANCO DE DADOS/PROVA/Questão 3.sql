@@ -20,6 +20,11 @@ id    name
 4	  XH1HX	            
 5	  XXXX	    	 
 
+
+-- SELECT
+SELECT REPLACE (name, 'H1', 'X') FROM VIRUS;
+
+
 -- EXEMPLO DE SAÍDA ESPERADO
 name
 XRT
